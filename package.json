@@ -1,0 +1,36 @@
+{
+  "name": "serve-swagger-editor",
+  "version": "0.1.0",
+  "description": "swagger-editor middleware",
+  "main": "index.js",
+  "author": "Morten Andersen",
+  "license": "ISC",
+  "homepage": "https://github.com/moander/serve-swagger-editor#readme",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moander/serve-swagger-editor.git"
+  },
+  "keywords": [
+    "swagger",
+    "swagger-editor",
+    "swagger-editor-backend"
+  ],
+  "bugs": {
+    "url": "https://github.com/moander/serve-swagger-editor/issues"
+  },
+  "devDependencies": {
+    
+  },
+  "dependencies": {
+    "serve-static": "^1.10.0",
+    "connect": "^3.4.0",
+    "underscore": "^1.8.3",
+    "swagger-editor": "^2.9.6"
+  }
+}
