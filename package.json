@@ -1,6 +1,6 @@
 {
   "name": "serve-swagger-editor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "swagger-editor middleware",
   "main": "index.js",
   "author": "Morten Andersen",
@@ -10,7 +10,7 @@
     "example": "examples"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec --bail --check-leaks test/"
   },
   "repository": {
     "type": "git",
@@ -24,8 +24,13 @@
   "bugs": {
     "url": "https://github.com/moander/serve-swagger-editor/issues"
   },
+  "files": [
+    "index.js",
+    "lib"
+  ],
   "devDependencies": {
-    
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
   },
   "dependencies": {
     "serve-static": "^1.10.0",
