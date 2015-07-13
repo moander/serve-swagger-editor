@@ -3,8 +3,9 @@ var serveSwaggerEditor = require('serve-swagger-editor');
 
 var app = serveSwaggerEditor({
 	disableNewUserIntro: true,
-	useBackendForStorage: true
-});
+	useBackendForStorage: true,
+	useYamlBackend: true
+}, '/tmp/myspec.yaml');
 
 var server = http.createServer(app);
 
