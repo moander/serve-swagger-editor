@@ -36,6 +36,6 @@
     "serve-static": "^1.10.0",
     "connect": "^3.4.0",
     "underscore": "^1.8.3",
-    "swagger-editor": "^2.9.6"
+    "swagger-editor": "^2.9.9"
   }
 }
